@@ -19,5 +19,5 @@ jobs:
         uses: bcomnes/deploy-to-neocities@v2
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-          dist_dir: public
+          dist_dir: my-Site/public
           cleanup: false
