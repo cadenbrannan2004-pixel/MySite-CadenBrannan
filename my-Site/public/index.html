@@ -1,32 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of cadenbrannan</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <body>
-    <h1>Welcome to my Website!</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caden Brannan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
 
-    <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+  <!-- ============ LEFT COLUMN ============ -->
+  <div class="left">
+    <div class="box">
+      <h1>projects</h1>
+      <div class="content">
+        <ul>
+          <li><a href="#" target="main">Sekiro Tracker</a></li>
+          <li><a href="#" target="main">Deadlock WR Tracker</a></li>
+          <li><a href="#" target="main">PlaceHolder</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+    <div class="box">
+      <h1>Picture Gallery</h1>
+      <div class="content">
+        <ul>
+          <li><a href="#" target="main">Pics</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <p>Here's how you can add an image:</p>
-    <img src="/neocities.png" alt="Site hosted by Neocities">
+    <div class="box">
+      <h1>favorites</h1>
+      <div class="content">
+        <ul>
+          <li><a href="#" target="main">games</a></li>
+          <li><a href="#" target="main">music</a></li>
+          <li><a href="#" target="main">films</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <p>Here's how to make a list:</p>
+    <div class="box">
+      <h1>links</h1>
+      <div class="content">
+        <ul>
+          <li><a href="#" target="main">sites</a></li>
+          <li><a href="#" target="main">resources</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-    </ul>
+  <!-- ============ CENTER COLUMN ============ -->
+  <div class="middle">
+    <div class="box">
+      <div class="content no-pad">
+        <!-- Pages load in here when you click a nav link (target="main") -->
+        <iframe class="main-frame" name="main" src="center.html"></iframe>
+      </div>
+    </div>
 
-    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
-  </body>
+    <div class="box">
+      <div class="content">
+        <p>Not Done yet</p>
+        <p>Not done yet</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ RIGHT COLUMN ============ -->
+  <div class="right">
+    <div class="box me">
+      <div class="content center">
+        <img src="images/avatar.png" alt="avatar" width="64">
+      </div>
+    </div>
+
+    <div class="box">
+      <h1>site</h1>
+      <div class="content">
+        <ul>
+          <li><a href="center.html" target="main">home</a></li>
+          <li><a href="#" target="main">about</a></li>
+          <li><a href="#" target="main">PlaceHolder</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box">
+      <h1>status</h1>
+      <div class="content center">
+        <img src="images/status.gif" alt="status"><br>
+        PlaceHolder
+      </div>
+    </div>
+
+    <div class="box">
+      <h1>tip</h1>
+      <div class="content">
+        hard refresh<br>
+        <b>ctrl+F5</b> (windows)<br>
+        <b>shift+cmd+R</b> (mac)
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
 </html>
