@@ -2,7 +2,7 @@
    EASY CUSTOMIZING — change these and the whole site updates
    ========================================================= */
 :root {
-  --page-bg-image: url("images/background.jpeg");  /* tiled page background */
+  --page-bg-image: url("images/BRBL.jpeg");  /* tiled page background */
   --page-bg-color: #3d2928;     /* shows if the image is missing */
 
   --header-color: #8a9d78;      /* box title bars */
@@ -84,6 +84,9 @@ a:hover { color: var(--link-hover); }
   border-width: 30px;
   border-image-width: 30px;
   padding: 0;
+  /* cream behind the inner half of the lace so the page background doesn't show through */
+  background: linear-gradient(var(--box-color), var(--box-color))
+              center / calc(100% - 30px) calc(100% - 30px) no-repeat border-box;
 }
 .middle .box .content {
   padding: 10px;
